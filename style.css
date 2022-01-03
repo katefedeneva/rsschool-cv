@@ -123,3 +123,9 @@ html {
   display: flex;
   flex-wrap: wrap;
 }
+
+.code {
+  background-color: rgb(242, 242, 242);
+  width: 500px;
+  padding: 20px;
+}
