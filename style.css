@@ -11,6 +11,13 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  font-family: "Montserrat", sans-serif;
+}
+
+.main {
+  display: flex;
+  flex-flow: column wrap;
+  flex-grow: (1, 2);
 }
 
 .nav-list {
@@ -29,6 +36,41 @@ body {
   margin: 0 auto;
 }
 
-.section {
-  
+.page-title {
+  font-family: "Montserrat", sans-serif;
+  src: url("assets/fonts/Monserrat-Regular");
+  font-weight: 400;
+
+}
+
+.contacts {
+  background-color: rgb(239, 193, 191);
+}
+
+.about {
+
+}
+
+.strengths {
+
+}
+
+.skills {
+
+}
+
+.code {
+
+}
+
+.experience {
+
+}
+
+.education {
+
+}
+
+.images {
+  border-radius: 2000px;
 }
