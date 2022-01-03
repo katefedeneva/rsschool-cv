@@ -25,10 +25,10 @@ body {
   flex-direction: column;
 }
 
-.footer {
+/*.footer {
   display: flex;
   justify-content: center;
-}
+}*/
 
 .nav-list {
   display: flex;
@@ -104,14 +104,15 @@ body {
   border-radius: 2000px;
 }
 
-.image-rs {
-  text-align: right;
-  margin-left: 1210px;
-}
-
 .image-rs:hover {
   text-align: right;
   transform: scale(1.2);
+  padding: 20px;
+}
+
+.image-git:hover {
+  text-align: right;
+  transform: scale(2.5);
   padding: 20px;
 }
 
@@ -128,4 +129,30 @@ html {
   background-color: rgb(242, 242, 242);
   width: 500px;
   padding: 20px;
+  border-radius: 20px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  background-color: rgb(242, 242, 242);
+}
+
+.year {
+  justify-self: center;
+  font-size: 30px;
+  position: relative;
+  bottom: 22px;
+}
+
+.github {
+  position: relative;
+  right: 500px;
+  bottom: 10px;
+}
+
+.rs {
+  position: relative;
+  left: 500px;
 }
