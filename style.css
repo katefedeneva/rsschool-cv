@@ -1,1 +1,158 @@
-/* Здесь будут стили моего CV */
+@font-face {
+  font-family: Montserrat;
+  src: url("assets/fonts/Montserrat-ExtraLight.ttf");
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: "Montserrat", sans-serif;
+  color: rgba(102, 102, 102);
+  font-size: 22px;
+}
+
+.header {
+  background-color: rgb(242, 242, 242);
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+}
+
+/*.footer {
+  display: flex;
+  justify-content: center;
+}*/
+
+.nav-list {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+
+.nav-item {
+  transition: .3s;
+}
+
+.nav-link {
+  padding: 0 20px;
+  line-height: 50px;
+  text-decoration: none;
+  color: rgba(102, 102, 102, 0.87);
+}
+
+.main-container {
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  flex-flow: column wrap;
+}
+
+#page-title {
+  font-family: "Montserrat", sans-serif;
+  src: url("assets/fonts/Monserrat-Regular");
+  font-weight: 400;
+  padding: 20px;
+  display: flex;
+  height: 390px;
+  
+}
+
+.section {
+  display: flex;
+  flex-flow: column wrap;
+  padding: 15px;
+}
+
+.h1 {
+  text-transform: uppercase;
+  color: rgb(69, 68, 74);
+  font-size: 40px;
+  display: flex;
+  align-content: space-around;
+  position: relative;
+  top: 50px;
+
+}
+
+.h2 {
+  text-transform: uppercase;
+  border-bottom: 5px solid rgb(239, 193, 191);
+  color: rgb(69, 68, 74);
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+}
+
+.href {
+  text-decoration: none;
+  color: rgba(102, 102, 102, 0.87);
+}
+
+.images {
+  border-radius: 2000px;
+}
+
+.image-rs:hover {
+  text-align: right;
+  transform: scale(1.2);
+  padding: 20px;
+}
+
+.image-git:hover {
+  text-align: right;
+  transform: scale(2.5);
+  padding: 20px;
+}
+
+html {
+  scroll-behavior: smooth; 
+}
+
+#contacts {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.code {
+  background-color: rgb(242, 242, 242);
+  width: 500px;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  background-color: rgb(242, 242, 242);
+}
+
+.year {
+  justify-self: center;
+  font-size: 30px;
+  position: relative;
+  bottom: 22px;
+}
+
+.github {
+  position: relative;
+  right: 500px;
+  bottom: 10px;
+}
+
+.rs {
+  position: relative;
+  left: 500px;
+}

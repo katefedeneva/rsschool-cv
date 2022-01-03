@@ -4,9 +4,111 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>CV</title>
+    <link rel="stylesheet" href="style.css">
+		<link rel="icon" href="asserts/img/favicon.ico">
 </head>
-<body>
+<body class="body">
+	<header class="header">
+		<div class="container">
+			<nav>
+				<ul class="nav-list">
+					<li class="nav-item"><a class="nav-link" href="#contacts">Contacts</a></li>
+					<li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+					<li class="nav-item"><a class="nav-link" href="#strengths">Strengths</a></li>
+					<li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+					<li class="nav-item"><a class="nav-link" href="#code">Code</a></li>
+					<li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+					<li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
 
+	<main class="main">
+		<div class="main-container">
+			<section class="section" id="page-title">
+					<img src="./asserts/img/avatar.jpg" alt="My Photo" class="images" width="350" height="350">
+					<div class="h1">
+						<h1>Ekaterina<br>Fedeneva</h1>
+					</div>
+			</section>
+					
+			<section class="section" id="contacts">
+					<h2 class="h2">Contacts</h2>
+					<ul class="list">
+						<li class="list-item">E-mail: <a class="href" href="mailto:katefedeneva@yandex.ru" title="email"> katefedeneva@yandex.ru;</a></li>
+						<li class="list-item">Telegram: @fedenevakate;</li>
+						<li class="list-item">Phone: +7 992 331 61 31.</li>
+					</ul>
+			</section>
+			
+			
+			<section class="section" id="about">
+					<h2 class="h2">About me</h2>
+					<p>I'm 23 years old QA Engineer. One day I understood that my work didn't bring me joy anymore and I decided to put my efforts in something new - front-end development.
+						In my free time I like to attend rock concerts, read manga, play games and spend time with my friends.</p>
+			</section>
+					
+			<section class="section" id="strengths">
+					<h2 class="h2">Key Strengths</h2>
+					<ul  class="list">
+						<li class="list-item">Sociability;</li>
+						<li class="list-item">Honesty;</li>
+						<li class="list-item">Diligence;</li>
+						<li class="list-item">Dedication.</li>
+					</ul>
+			</section>
+					
+			<section class="section" id="skills">
+					<h2 class="h2">Skills</h2>
+					<ul class="list">
+						<li class="list-item">Languages:
+							<ul>
+								<li class="list-item">English: Advanced (C1);</li>
+								<li class="list-item">German: Beginner (A1);</li>
+								<li class="list-item">Russian: Native Speaker.</li>
+							</ul></li>
+						<li class="list-item">HTML/CSS</li>
+						<li class="list-item">SQL</li>
+						<li class="list-item">Charles/Fiddler</li>
+					</ul>
+			</section>
+			
+			
+			<section class="section" id="code">
+					<h2 class="h2">Code Examples</h2>
+					<code class="code">
+						function multiply(a, b){ <br>
+						return a * b <br>
+						}
+					</code>
+			</section>
+						
+			<section class="section" id="experience">
+					<h2 class="h2">Experience</h2>
+					<ul class="list">
+						<li class="list-item">2019 - 2021: QA Engineer, SKB LAB, Ekaterinburg, Russia;</li>
+						<li class="list-item">2021 - now: QA Engineer, EBC system, Ekaterinburg, Russia</li>
+					</ul>
+			</section>
+						
+			<section class="section" id="education">
+					<h2 class="h2">Education</h2>
+					<ul class="list">
+						<li class="list-item">2016 - 2021: UrFU, RtF, Information Security Department</li>
+					</ul>
+			</section>
+						
+		</div>
+	</main>
+
+	<footer class="footer">
+		<div class="foot-container">
+			<a class="github" href="https://github.com/katefedeneva"><img src="./asserts/img/my_github.png" alt="My GitHub" width="55" height="55" class="image-git"></a>
+			<span class="year">2022</span>
+			<a class="rs" href="https://rs.school/js/"><img src="https://rs.school/images/rs_school_js.svg" alt="RS School" width="155" height="75" class="image-rs"></a>
+		</div>
+	</footer>
 </body>
 </html>
