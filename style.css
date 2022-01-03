@@ -2,3 +2,13 @@
   font-family: Montserrat;
   src: url("assets/fonts/Montserrat-ExtraLight.ttf");
 }
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
