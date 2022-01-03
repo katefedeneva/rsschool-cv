@@ -1,4 +1,8 @@
 # Ekaterina Fedeneva
+
+## My photo
+![This is my photo](/C/Users/Kate/Desktop/my_photo.jpg)
+
 ## Contacts
 * **E-mail**: katefedeneva@yandex.ru;
 * **Telegram**: @fedenevakate;
