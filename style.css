@@ -104,6 +104,11 @@ body {
   border-radius: 2000px;
 }
 
+.image-rs {
+  text-align: right;
+  margin-left: 1210px;
+}
+
 .image-rs:hover {
   text-align: right;
   transform: scale(1.2);
