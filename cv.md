@@ -1,7 +1,7 @@
 # Ekaterina Fedeneva
 
 ## My photo
-![This is my photo](https://sun9-72.userapi.com/impg/vnwat0nTbIWOTtbzAGObRdDhA9AoKm7dO80ACg/eKWKEOaoMMM.jpg?size=1280x854&quality=96&sign=05a3253a382ab396cb1ee841b3511612&type=album){:height="350px" width="150px"}
+![This is my photo](https://sun9-72.userapi.com/impg/vnwat0nTbIWOTtbzAGObRdDhA9AoKm7dO80ACg/eKWKEOaoMMM.jpg?size=1280x854&quality=96&sign=05a3253a382ab396cb1ee841b3511612&type=album)
 
 ## Contacts
 * **E-mail**: katefedeneva@yandex.ru;
