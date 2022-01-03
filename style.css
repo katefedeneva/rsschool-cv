@@ -13,6 +13,7 @@ body {
   justify-content: space-between;
   font-family: "Montserrat", sans-serif;
   color: rgba(102, 102, 102);
+  font-size: 22px;
 }
 
 .header {
@@ -25,7 +26,8 @@ body {
 }
 
 .footer {
-
+  display: flex;
+  justify-content: center;
 }
 
 .nav-list {
@@ -55,13 +57,14 @@ body {
   flex-flow: column wrap;
 }
 
-.page-title {
+#page-title {
   font-family: "Montserrat", sans-serif;
   src: url("assets/fonts/Monserrat-Regular");
   font-weight: 400;
-  margin: 125px 80px 125px 60px
-
-
+  padding: 20px;
+  display: flex;
+  height: 390px;
+  
 }
 
 .section {
@@ -73,6 +76,11 @@ body {
 .h1 {
   text-transform: uppercase;
   color: rgb(69, 68, 74);
+  font-size: 40px;
+  display: flex;
+  align-content: space-around;
+  position: relative;
+  top: 50px;
 
 }
 
@@ -84,11 +92,7 @@ body {
 
 .list {
   display: flex;
-  flex-direction: column
-}
-
-.list-item {
-
+  flex-direction: column;
 }
 
 .href {
